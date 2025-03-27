@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif+JP:wght@200..900&display=swap');
+
+.error-message{
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 300;
+    font-size: 14px;
+    color: #F65A5A;
+    margin: 0;
+}
