@@ -1,0 +1,122 @@
+.mv {
+    position: relative;
+    background: url('/images/pigly-background.jpeg') no-repeat center/cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(580 / 1512 * 100%);
+    max-height: 845px;
+    border-radius: 24px;
+    padding: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.form-title {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.form-title h1 {
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 60px;
+    color: #EC87EF;
+    margin: 0;
+}
+
+.form-title h2 {
+    font-family: "Hiragino Mincho Pro";
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0;
+}
+
+.form-step {
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+    margin: 10px 0;
+}
+
+.form__group {
+    width: 100%;
+    height: 77px;
+    margin: 10px 0;
+}
+
+.form__item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form__item p{
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 300;
+    font-size: 16px;
+    vertical-align: bottom;
+}
+
+.form__label {
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+}
+
+.form__input {
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 11px 10px;
+    border: 1px solid #E0DFDE;
+    height: 43px;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.form__input::placeholder {
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 300;
+    font-size: 14px;
+    color: #CDCDCD;
+}
+
+.form__btn {
+    display: block;
+    background: linear-gradient(90deg, #A3A6E1 0%, #FFABD9 100%);
+    width: 250px;
+    height: 50px;
+    border-radius: 12px;
+    padding: 10px;
+    font-family: "Hiragino Kaku Gothic Pro";
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
