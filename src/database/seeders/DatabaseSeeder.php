@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\WeightLog;
 
 class DatabaseSeeder extends Seeder
 {
@@ -13,6 +14,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        // $this->call([
+        // UsersTableSeeder::class,
+        // WeightTargetTableSeeder::class,
+        // ]);
+
+        WeightLog::factory()->count(35)->create([
+            'user_id' => 9,
+        ]);
     }
 }
